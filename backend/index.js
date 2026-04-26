@@ -34,4 +34,4 @@ app.post("/students", async (req, res) => {
   res.json(data);
 });
 
-app.listen(3000, () => console.log("Server running"));
+app.listen(3500, () => console.log("Server running"));
